@@ -1,13 +1,10 @@
 // app/layout.tsx
-import { Inter } from 'next/font/google'
 import './globals.css'
 import { Metadata } from 'next'
 
-const inter = Inter({ subsets: ['latin'] })
-
 export const metadata: Metadata = {
   title: 'Panav | Portfolio',
-  description: 'Personal portfolio showcasing projects and photography',
+  description: 'Personal portfolio showcasing projects and photography in a handwritten style',
 }
 
 export default function RootLayout({
@@ -17,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>{children}</body>
     </html>
   )
 }
