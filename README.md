@@ -1,3 +1,6 @@
+Blah blah blah next js boilerplate below
+this is just a personal site im making for funsies - not deployed yet
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
